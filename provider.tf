@@ -32,3 +32,9 @@ provider "aws" {
     }
   }
 }
+
+provider "aws" {
+  alias = "us_east_1"
+
+  region = "es-east-1"
+}
